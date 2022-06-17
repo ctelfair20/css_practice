@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+
+.title {
+    text-align: center;
+    color: #000000;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+
+}
+
+section {
+    background: #e67f7f;
+    margin: 20px;
+    height: auto;
+    width: auto;
+}
+
+.sub-title {
+    font-weight: 400;
+    font-size: larger;
+    color: #FFFFFF;
+}
