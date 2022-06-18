@@ -16,7 +16,7 @@ main {
 
 }
 
-section {
+.prompt {
     margin: 20px;
     height: auto;
     width: auto;
@@ -53,11 +53,53 @@ section {
     height: 100px;
     background: #FFFFFF;
     top: 10px;
-    border-radius: 50px 50px
+    border-radius: 50px 50px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .eyes {
-    position: absolute;
-    z-index: 2;
     background: red;
+    width: 40px;
+    height: 40px;
+}
+
+.left {
+    border-radius: 100% 50%;
+}
+
+.right {
+    border-radius: 50% 100%;
+}
+
+
+
+.carrom {
+    margin: 0;
+    background: #62374e;
+    display: flex;
+    flex-direction: column;
+}
+
+.carrom-div {
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrom-square {
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+}
+
+.simply-square {
+    background: #5d3a3a;
+    margin: 0;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background: #b5e0ba;
 }
