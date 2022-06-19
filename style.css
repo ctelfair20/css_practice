@@ -72,6 +72,42 @@ main {
     border-radius: 50% 100%;
 }
 
+/* .ups-n-downs {
+    margin: 0;
+    background: #62306D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container-ups-n-downs {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.purple-ups-n-downs,
+.yellow-ups-n-downs {
+    height: 100px;
+    width: 100px;
+}
+
+.purple-ups-n-downs {
+    background: #62306D;
+}
+
+.bottom-ups-n-downs {
+    border-radius: 0 0 50% 50%;
+    background: #F7EC7D;
+}
+
+.top-ups-n-downs {
+    border-radius: 50% 50% 0 0;
+    background: #F7EC7D;
+} */
+
 .push-button {
     margin: 0;
     background: #6592CF;
