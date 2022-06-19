@@ -72,7 +72,7 @@ main {
     border-radius: 50% 100%;
 }
 
-/* .ups-n-downs {
+.ups-n-downs {
     margin: 0;
     background: #62306D;
     display: flex;
@@ -106,7 +106,7 @@ main {
 .top-ups-n-downs {
     border-radius: 50% 50% 0 0;
     background: #F7EC7D;
-} */
+}
 
 .push-button {
     margin: 0;
