@@ -72,7 +72,43 @@ main {
     border-radius: 50% 100%;
 }
 
+.push-button {
+    margin: 0;
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.square-push-button {
+    width: 300px;
+    height: 150px;
+    background: #243D83;
+}
+
+.outer-push-button {
+    position: absolute;
+    background: #6592CF;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.middle-push-button {
+    position: absolute;
+    background: #243D83;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.inner-push-button {
+    position: absolute;
+    background: #EEB850;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
 
 .carrom {
     margin: 0;
