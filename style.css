@@ -72,7 +72,41 @@ main {
     border-radius: 50% 100%;
 }
 
+.acid-rain {
+    margin: 0;
+    background: #0B2429;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.item-acid-rain {
+    width: 120px;
+    height: 120px;
+}
+
+.top-acid-rain {
+    position: absolute;
+    top: 153px;
+    left: 280px;
+    background: #F3AC3C;
+    border-radius: 50%;
+}
+
+.mid-acid-rain {
+    position: absolute;
+    background: #998235;
+    border-radius: 50% 0 50% 50%;
+}
+
+.bottom-acid-rain {
+    position: absolute;
+    top: 272px;
+    left: 160px;
+    background: #F3AC3C;
+    border-radius: 50% 0 50% 50%;
+}
 
 .ups-n-downs {
     margin: 0;
